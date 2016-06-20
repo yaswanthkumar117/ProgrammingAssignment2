@@ -1,7 +1,6 @@
 
 ##Underneath a couple of capacities that are utilized to make an extraordinary article 
 ##that stores a network and reserves its converse.
-
 ## This capacity makes an uncommon "framework" question that can reserve its reverse.
 
 makeCacheMatrix <- function(x = matrix()) {
