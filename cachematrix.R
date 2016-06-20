@@ -15,7 +15,6 @@ makeCacheMatrix <- function(x = matrix()) {
         list(set = set,get = get,setInverse = setInverse,getInverse = getInverse)
 }
 
-
 ## This capacity figures the opposite of the extraordinary framework made by makeCacheMatrix above 
 ## If the inverse has already been calculated (and the framework has not changed then it ought to recover the reverse from the store).
 
@@ -24,8 +23,7 @@ cacheSolve <- function(x, ...) {
         invr <- x$getInverse()
         if (!is.null(invr)) {
                 message("getting cached data")
-                return(invr)
-        }
+                return(invr)        }
         mat <- x$get()
         invr <- solve(mat, ...)
         x$setInverse(invr)
