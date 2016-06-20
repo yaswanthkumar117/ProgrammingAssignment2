@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This capacity figures the opposite of the extraordinary framework made by makeCacheMatrix above. 
+## This capacity figures the opposite of the extraordinary framework made by makeCacheMatrix above 
 ## If the inverse has already been calculated (and the framework has not changed then it ought to recover the reverse from the store).
 
 cacheSolve <- function(x, ...) {
